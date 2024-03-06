@@ -1,0 +1,286 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #EFEFEF;
+    font-family: "DM Sans", sans-serif;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14142B;
+  }
+  .navigation .nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+  }
+  .navigation .nav .logo {
+    padding-top: 11px;
+    padding-bottom: 19px;
+  }
+  .bell {
+    padding-right: 16px;
+  }
+}
+.test1 {
+  margin: 24px 18px 24px 16px;
+  width: 341px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.test1 .card-top {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 0 0 12px;
+}
+.test1 .card-top > p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6E7191;
+}
+.test1 .card-top > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: 1px;
+}
+.test1 .card-top > span > img {
+  width: 24px;
+  height: 24px;
+}
+.test1 .border {
+  display: block;
+  border: 1px solid #D9DBE9;
+  margin: 16px 12px;
+  width: 317px;
+}
+.test1 .card-info {
+  display: flex;
+  color: #6E7191;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  gap: 36px;
+}
+.test1 .card-info > div > span {
+  color: #14142B;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+.test1 .test7 {
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  gap: 4px;
+  margin: 0 0 16px 12px;
+}
+.test1 .test3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 24px 12px;
+  width: 343px;
+  height: 207px;
+}
+.circle .aaasss {
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  gap: 12px;
+  margin: 16px 12px;
+}
+.circle .aaasss .title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.circle .aaasss .title-wrapper .info-growth {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.circle .aaasss .title-wrapper .info-growth > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  height: 34px;
+}
+.circle .aaasss .title-wrapper .info-growth > span > img {
+  width: 24px;
+  height: 24px;
+}
+.circle .aaasss .title-wrapper .info-growth > p {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6E7191;
+}
+.circle .aaasss .title-wrapper .percent {
+  position: relative;
+  top: 25px;
+}
+.circle .aaasss .title-wrapper .percent > span {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 48px 23px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.circle .aaasss .title-wrapper .percent > span > img {
+  width: 16px;
+  height: 16px;
+}
+
+.investments-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "DM Sans", sans-serif;
+  margin-left: 16px;
+}
+.investments-wrapper .invest {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #14142B;
+}
+.investments-wrapper .active-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.investments-wrapper .active-wrapper > span {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3B3DCC;
+}
+.investments-wrapper .active-wrapper > p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6E7191;
+}
+
+.crowfix {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  height: 339px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 8px 73px 20px 15px;
+}
+.crowfix .gold {
+  display: flex;
+  margin: 16px 0 20px 12px;
+}
+.crowfix .gold > p {
+  display: flex;
+  align-items: center;
+  color: #3B3DCC;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  gap: 12px;
+}
+.crowfix .mon {
+  display: flex;
+  gap: 26px;
+}
+.crowfix .mon .money {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 13px;
+}
+.crowfix .mon .money > p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6E7191;
+}
+.crowfix .mon .money > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+}
+.crowfix .mon .money > span > img {
+  width: 20px;
+  height: 20px;
+}
+
+.border {
+  border: 1px solid #D9DBE9;
+  margin: 16px 12px;
+  width: 320px;
+}
+
+.footer {
+  background-color: #fff;
+  margin: 24px 16px;
+  border-radius: 10px;
+}
+.footer .res {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6E7191;
+  padding: 16px 0 16px 12px;
+}
+.footer .list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer .list .list1 {
+  display: flex;
+  gap: 160px;
+  margin: 0 12px 0 12px;
+}
+.footer .list .list1 > p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer .list .list1 > p > img {
+  width: 20;
+  height: 20px;
+  margin-right: 5px;
+}/*# sourceMappingURL=style.css.map */
